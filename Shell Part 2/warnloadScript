@@ -1,0 +1,69 @@
+Script started on Tue Apr 05 21:57:52 2016
+sh: using dumb terminal settings.
+yankees6[12] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>
+[cwd]>warnload 5
+Watching loadValue 5.000000
+[cwd]>warnload 0.02
+Watching loadValue 0.020000
+[cwd]>WARNING: current load level is 1.530000, and warnlevel is 0.020000
+
+[cwd]>warnload 1. .1
+Watching loadValue 1.100000
+[cwd]>WARNING: current load level is 1.490000, and warnlevel is 1.100000
+WARNING: current load level is 1.480000, and warnlevel is 1.100000
+WARNING: current load level is 1.510000, and warnlevel is 1.100000
+
+[cwd]>warnload 0.0
+Warning level of 0.0 detected, thread exited
+[cwd]>
+[cwd]>ls -al
+[cwd]>total 481
+drwxr-x---   3 mshivani mshivani      41 Apr  5 21:57 .
+drwxr-x---   3 mshivani mshivani       7 Apr  4 22:49 ..
+-rw-r-----   1 mshivani mshivani    1256 Jan 20 11:47 get_path.c
+-rw-r-----   1 mshivani mshivani     362 Jan 20 11:47 get_path.h
+-rw-r-----   1 mshivani mshivani    3700 Apr  5 19:55 get_path.o
+-rw-r-----   1 mshivani mshivani       9 Apr  5 21:43 mail1
+-rw-r-----   1 mshivani mshivani      17 Apr  5 21:43 mail2
+-rw-r-----   1 mshivani mshivani     278 Jan 20 11:47 main.c
+-rw-r-----   1 mshivani mshivani     352 Apr  4 20:08 #Makefile#
+-rw-r-----   1 mshivani mshivani     369 Apr  4 22:29 Makefile
+-rw-r-----   1 mshivani mshivani     335 Apr  4 21:11 Makefile~
+-rwxr-x---   1 mshivani mshivani   48972 Apr  5 20:55 mysh
+drwxr-x---   3 mshivani mshivani       3 Mar  8 10:55 mysh.dSYM
+-rw-r-----   1 mshivani mshivani   12080 Apr  5 21:54 proj3_FinalScript
+-rw-r-----   1 mshivani mshivani   12576 Apr  5 21:48 proj3_FinalScript~
+-rw-r-----   1 mshivani mshivani   12080 Apr  5 21:54 proj3_MainScript
+-rw-r-----   1 mshivani mshivani   11775 Apr  4 22:20 project3_FinalScript
+-rw-r-----   1 mshivani mshivani   61940 Mar 10 22:07 README.pdf
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:55 sh.c
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:34 sh.c~
+-rw-r-----   1 mshivani mshivani    1563 Apr  5 17:35 sh.h
+-rw-r-----   1 mshivani mshivani    1514 Apr  4 17:53 sh.h~
+-rw-r-----   1 mshivani mshivani   55268 Apr  5 20:55 sh.o
+-rwxr-x---   1 mshivani mshivani    6368 Apr  4 15:13 sleep
+-rw-r-----   1 mshivani mshivani     411 Mar 10 18:23 sleep.c
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:44 test1
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:46 test10
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:46 test11
+-rwxr-x---   1 mshivani mshivani    6028 Apr  5 21:22 test-1+2
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:46 test12
+-rw-r-----   1 mshivani mshivani     254 Apr  1 00:09 test-1+2.c
+-rw-r-----   1 mshivani mshivani      54 Apr  5 21:44 test2
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:44 test3
+-rw-r-----   1 mshivani mshivani     106 Apr  5 21:44 test4
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:45 test5
+-rw-r-----   1 mshivani mshivani      54 Apr  5 21:45 test6
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:45 test7
+-rw-r-----   1 mshivani mshivani     106 Apr  5 21:45 test8
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:46 test9
+-rw-r-----   1 mshivani mshivani       0 Apr  5 21:57 warnloadScript
+-rw-r-----   1 mshivani mshivani    2767 Apr  4 22:28 watchUserScript
+
+[cwd]>exit
+Executing built in command exit
+yankees6[13] [~/cisc361/assignment3/assignment2/]> exit
+exit
+
+script done on Tue Apr 05 22:01:02 2016

@@ -1,0 +1,350 @@
+Script started on Tue Apr 05 21:40:59 2016
+sh: using dumb terminal settings.
+yankees6[31] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>pwd
+Executing built in command pwd
+/usa/mshivani/cisc361/assignment3/assignment2
+[cwd]>ls &
+starting background job 28294
+get_path.c            proj3_FinalScript     test11
+get_path.h            project3_FinalScript  test-1+2
+get_path.o            README.pdf            test12
+mail1                 sh.c                  test-1+2.c
+mail2                 sh.c~                 test5
+main.c                sh.h                  test6
+#Makefile#            sh.h~                 test7
+Makefile              sh.o                  test8
+Makefile~             sleep                 test9
+mysh                  sleep.c               watchUserScript
+mysh.dSYM             test10
+[cwd]>ls -l &
+starting background job 28308
+total 428
+-rw-r-----   1 mshivani mshivani    1256 Jan 20 11:47 get_path.c
+-rw-r-----   1 mshivani mshivani     362 Jan 20 11:47 get_path.h
+-rw-r-----   1 mshivani mshivani    3700 Apr  5 19:55 get_path.o
+-rw-r-----   1 mshivani mshivani       9 Apr  5 20:48 mail1
+-rw-r-----   1 mshivani mshivani      17 Apr  5 20:49 mail2
+-rw-r-----   1 mshivani mshivani     278 Jan 20 11:47 main.c
+-rw-r-----   1 mshivani mshivani     352 Apr  4 20:08 #Makefile#
+-rw-r-----   1 mshivani mshivani     369 Apr  4 22:29 Makefile
+-rw-r-----   1 mshivani mshivani     335 Apr  4 21:11 Makefile~
+-rwxr-x---   1 mshivani mshivani   48972 Apr  5 20:55 mysh
+drwxr-x---   3 mshivani mshivani       3 Mar  8 10:55 mysh.dSYM
+-rw-r-----   1 mshivani mshivani       0 Apr  5 21:40 proj3_FinalScript
+-rw-r-----   1 mshivani mshivani   11775 Apr  4 22:20 project3_FinalScript
+-rw-r-----   1 mshivani mshivani   61940 Mar 10 22:07 README.pdf
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:55 sh.c
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:34 sh.c~
+-rw-r-----   1 mshivani mshivani    1563 Apr  5 17:35 sh.h
+-rw-r-----   1 mshivani mshivani    1514 Apr  4 17:53 sh.h~
+-rw-r-----   1 mshivani mshivani   55268 Apr  5 20:55 sh.o
+-rwxr-x---   1 mshivani mshivani    6368 Apr  4 15:13 sleep
+-rw-r-----   1 mshivani mshivani     411 Mar 10 18:23 sleep.c
+-rw-r-----   1 mshivani mshivani      27 Apr  5 18:32 test10
+-rw-r-----   1 mshivani mshivani      53 Apr  5 18:32 test11
+-rwxr-x---   1 mshivani mshivani    6028 Apr  5 21:22 test-1+2
+-rw-r-----   1 mshivani mshivani      53 Apr  5 18:32 test12
+-rw-r-----   1 mshivani mshivani     254 Apr  1 00:09 test-1+2.c
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:28 test5
+-rw-r-----   1 mshivani mshivani      54 Apr  5 21:28 test6
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:28 test7
+-rw-r-----   1 mshivani mshivani     106 Apr  5 21:28 test8
+-rw-r-----   1 mshivani mshivani      27 Apr  5 18:32 test9
+-rw-r-----   1 mshivani mshivani    2767 Apr  4 22:28 watchUserScript
+[cwd]>cd /
+Executing built in command cd
+[cwd]>sleep 20 &
+starting background job 28332
+
+[cwd]>[cwd]>ls &
+starting background job 28359
+backups   dev       homes     net       root      temp      usr
+bin       etc       lib       opt       samba     tmp       var
+cgi       export    m         platform  sbin      usa
+degas     home      mnt       proc      system    usb
+[cwd]>pid
+Executing built in command pid
+28289
+[cwd]>tty
+[cwd]>/dev/pts/40
+
+[cwd]>/bin/ps -lfu mshivani
+[cwd]> F S      UID   PID  PPID   C PRI NI     ADDR     SZ    WCHAN    STIME TTY         TIME CMD
+ 0 S mshivani 28275 27962   0  70 20        ?    490        ? 21:41:00 pts/8       0:00 script proj3_FinalScript
+ 0 S mshivani 27962 27960   0  70 20        ?    856        ? 21:37:12 pts/8       0:01 -tcsh
+ 0 S mshivani 19246 19230   0  43 20        ?   1189        ? 20:03:12 ?           0:00 /usr/local/stow/OpenSSH-6.6p1/sbin/
+ 0 S mshivani 28289 28277   0  40 20        ?    218        ? 21:41:03 pts/40      0:00 ./mysh
+ 0 S mshivani 28277 28276   0  98 20        ?    832        ? 21:41:00 pts/40      0:01 sh -i
+ 0 S mshivani 27960 27958   0  45 20        ?   1189        ? 21:37:12 ?           0:00 /usr/local/stow/OpenSSH-6.6p1/sbin/
+ 0 S mshivani 19248 19246   0  77 20        ?    848        ? 20:03:12 pts/33      0:01 -tcsh
+ 0 O mshivani 28413 28289   0  40 20        ?    527          21:42:01 pts/40      0:00 /bin/ps -lfu mshivani
+ 0 S mshivani 28276 28275   0  70 20        ?    495        ? 21:41:00 pts/8       0:00 script proj3_FinalScript
+
+Bus error
+yankees6[32] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>ls -l
+[cwd]>total 428
+-rw-r-----   1 mshivani mshivani    1256 Jan 20 11:47 get_path.c
+-rw-r-----   1 mshivani mshivani     362 Jan 20 11:47 get_path.h
+-rw-r-----   1 mshivani mshivani    3700 Apr  5 19:55 get_path.o
+-rw-r-----   1 mshivani mshivani       9 Apr  5 20:48 mail1
+-rw-r-----   1 mshivani mshivani      17 Apr  5 20:49 mail2
+-rw-r-----   1 mshivani mshivani     278 Jan 20 11:47 main.c
+-rw-r-----   1 mshivani mshivani     352 Apr  4 20:08 #Makefile#
+-rw-r-----   1 mshivani mshivani     369 Apr  4 22:29 Makefile
+-rw-r-----   1 mshivani mshivani     335 Apr  4 21:11 Makefile~
+-rwxr-x---   1 mshivani mshivani   48972 Apr  5 20:55 mysh
+drwxr-x---   3 mshivani mshivani       3 Mar  8 10:55 mysh.dSYM
+-rw-r-----   1 mshivani mshivani       0 Apr  5 21:40 proj3_FinalScript
+-rw-r-----   1 mshivani mshivani   11775 Apr  4 22:20 project3_FinalScript
+-rw-r-----   1 mshivani mshivani   61940 Mar 10 22:07 README.pdf
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:55 sh.c
+-rw-r-----   1 mshivani mshivani   40696 Apr  5 20:34 sh.c~
+-rw-r-----   1 mshivani mshivani    1563 Apr  5 17:35 sh.h
+-rw-r-----   1 mshivani mshivani    1514 Apr  4 17:53 sh.h~
+-rw-r-----   1 mshivani mshivani   55268 Apr  5 20:55 sh.o
+-rwxr-x---   1 mshivani mshivani    6368 Apr  4 15:13 sleep
+-rw-r-----   1 mshivani mshivani     411 Mar 10 18:23 sleep.c
+-rw-r-----   1 mshivani mshivani      27 Apr  5 18:32 test10
+-rw-r-----   1 mshivani mshivani      53 Apr  5 18:32 test11
+-rwxr-x---   1 mshivani mshivani    6028 Apr  5 21:22 test-1+2
+-rw-r-----   1 mshivani mshivani      53 Apr  5 18:32 test12
+-rw-r-----   1 mshivani mshivani     254 Apr  1 00:09 test-1+2.c
+-rw-r-----   1 mshivani mshivani      27 Apr  5 21:28 test5
+-rw-r-----   1 mshivani mshivani      54 Apr  5 21:28 test6
+-rw-r-----   1 mshivani mshivani      53 Apr  5 21:28 test7
+-rw-r-----   1 mshivani mshivani     106 Apr  5 21:28 test8
+-rw-r-----   1 mshivani mshivani      27 Apr  5 18:32 test9
+-rw-r-----   1 mshivani mshivani    2767 Apr  4 22:28 watchUserScript
+
+[cwd]>rm -f mail1 mail2
+[cwd]>touch mail1
+Segmentation fault
+yankees6[33] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>touch mail1
+[cwd]>watchmail mail1
+Watching mail for mail1
+[cwd]>echo hi >> mail1
+[cwd]>hi
+
+BEEP You've Got Mail in mail1 at Tue Apr  5 21:42:49 2016
+
+
+[cwd]>echo HiThere > mail2
+[cwd]>HiThere
+
+[cwd]>watchmail mail2
+Watching mail for mail2
+[cwd]>echo there >> mail1
+[cwd]>there
+
+BEEP You've Got Mail in mail1 at Tue Apr  5 21:43:07 2016
+
+
+[cwd]>echo Subject: >> mail2
+[cwd]>Subject:
+
+BEEP You've Got Mail in mail2 at Tue Apr  5 21:43:13 2016
+
+
+[cwd]>cat mail1
+[cwd]>hi
+there
+
+[cwd]>cat mail2
+[cwd]>HiThere
+Subject:
+
+[cwd]>rm -f test1 test2 test3 test4 test5 test6 test7 test8
+[cwd]>
+Bus error
+yankees6[34] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>test-1+2 > test1
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >> test2
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >& test3
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >>& test4
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>cat test1 test2 test3 test4
+[cwd]>This is to standard output
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+
+Segmentation fault
+yankees6[35] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>test-1+2 > test1
+[cwd]>This is to standard error
+This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >> test2
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >& test3
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >>& test4
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>cat test1 test2 test3 test4
+[cwd]>This is to standard output
+This is to standard output
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+
+Segmentation fault
+yankees6[36] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>noclobber
+noclobber has been turned on
+[cwd]>test-1+2 > test5
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >> test6
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >& test7
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >>& test8
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>cat test5 test6 test7 test8
+[cwd]>This is to standard output
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+
+Segmentation fault
+yankees6[37] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>noclobber
+noclobber has been turned on
+[cwd]>test-1+2 > test5
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >> test6
+[cwd]>This is to standard output
+This is to standard error
+This is to standard error
+
+[cwd]>test-1+2 >& test7
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >>& test8
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>cat test5 test6 test7 test8
+[cwd]>This is to standard output
+This is to standard output
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+
+Segmentation fault
+yankees6[38] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>rm -f test9 test10 test11 test12
+[cwd]>
+Segmentation fault
+yankees6[39] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>no  test-1+2 > test9
+[cwd]>This is to standard error
+This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >> test10
+[cwd]>This is to standard error
+This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >& test11
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>test-1+2 >>& test12
+[cwd]>This is to standard output
+This is to standard error
+
+[cwd]>cat test9 test10 test11 test12
+[cwd]>This is to standard output
+This is to standard output
+This is to standard error
+This is to standard output
+This is to standard error
+This is to standard output
+
+Bus error
+yankees6[40] [~/cisc361/assignment3/assignment2/]> ./mysh
+[cwd]>ls | fgrep .c
+[cwd]>get_path.c
+main.c
+sh.c
+sh.c~
+sleep.c
+test-1+2.c
+
+[cwd]>./test-1+2 | grep  hello
+[cwd]>This is to standard error
+
+[cwd]>./test-1+2 |& grep hello
+[cwd]>./test-1+2 | grep output
+[cwd]>This is to standard error
+This is to standard output
+
+[cwd]>./test-1+2 |& grep output
+[cwd]>This is to standard output
+
+[cwd]>./test-1+2 |& grep error
+[cwd]>This is to standard error
+
+[cwd]>pid
+Executing built in command pid
+29594
+[cwd]>/bin/ps -lfu mshivani | grep defunct
+[cwd]> 0 S mshivani 29612 29594   0  40 20        ?    493        ? 21:48:37 pts/40      0:00 grep defunct
+
+[cwd]>exit
+Executing built in command exit
+yankees6[47] [~/cisc361/assignment3/assignment2/]> exit
+exit
+
+script done on Tue Apr 05 21:48:48 2016
